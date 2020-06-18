@@ -7,15 +7,14 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <style>
 
-/********** Base styles **********/
 * {
   font-family: "Gill Sans", sans-serif;
   box-sizing: border-box;
 
 }
-/********** Small devices only **********/
+
 @media (max-width: 767px) {
-  .col-sg-1, .col-sg-2, .col-sg-3, .col-sg-4, .col-sg-5, .col-sg-6, .col-sg-7, .col-sg-8, .col-sg-9, .col-sg-10, .col-sg-11, .col-sg-12 {
+  .col-sg-1{
     float: left;
     border: 2px solid black;
     width: 97%;
@@ -24,15 +23,13 @@
   
 }
 
-
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+   .col-lg-3 {
     float: left;
     border: 2px solid black;
     width: 31%;
@@ -42,7 +39,7 @@
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-2, .col-md-12 {
     float: left;
     border: 2px solid black;
     width: 47.5%;
@@ -51,12 +48,12 @@
     width: 97.2%;
   }
 
+   .col-md-12 h2{
+    margin-left: 80%;
+  }
 
-
-  
-  
 }
-h1 {text-align: center;}
+h1{text-align: center;}
 h2{text-align: center;}
 
 </style>
@@ -65,16 +62,16 @@ h2{text-align: center;}
 <h1> Our Menu</h1>
 
 <div class="row">
-  <div class="col-lg-1 col-md-1 col-sg-1">
+  <div class="col-lg-3 col-md-2 col-sg-1">
     <h2 style="background-color: #45A8D1">
     Chicken</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor lorem sed diam ornare, ut lacinia ante rutrum. Maecenas eu tortor non odio venenatis porta. Vivamus euismod et lectus nec fermentum. Fusce ultricies vestibulum lacinia. Sed dictum vehicula ex, eget commodo nibh ullamcorper ac. Suspendisse augue nibh, viverra nec velit sed, viverra scelerisque ligula.</p>
   </div>
-  <div class="col-lg-2 col-md-2 col-sg-2">
+  <div class="col-lg-3 col-md-2 col-sg-1">
     <h2 style="background-color: #F1E46A">Beef</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor lorem sed diam ornare, ut lacinia ante rutrum. Maecenas eu tortor non odio venenatis porta. Vivamus euismod et lectus nec fermentum. Fusce ultricies vestibulum lacinia. Sed dictum vehicula ex, eget commodo nibh ullamcorper ac. Suspendisse augue nibh, viverra nec velit sed, viverra scelerisque ligula.</p>
   </div>
-  <div class="col-lg-3 col-md-12 col-sg-3">
+  <div class="col-lg-3 col-md-12 col-sg-1">
     <h2 style="background-color: #F16A6E">Sushi</h2> 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor lorem sed diam ornare, ut lacinia ante rutrum. Maecenas eu tortor non odio venenatis porta. Vivamus euismod et lectus nec fermentum. Fusce ultricies vestibulum lacinia. Sed dictum vehicula ex, eget commodo nibh ullamcorper ac. Suspendisse augue nibh, viverra nec velit sed, viverra scelerisque ligula.</p>
   </div>
